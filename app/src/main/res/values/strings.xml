@@ -20,4 +20,19 @@
     <string name="copyright">Content Copyright reserved.</string>
     <string name="lorem_heading">Lorem ipsum dolor sit amet, consectetur\nadipiscing elit</string>
     <string name="privacy_policy">Privacy Policy.</string>
+    <string name="upload">Upload</string>
+    <string name="edit">Edit</string>
+    <string name="john_doe">john.doe</string>
+    <string name="my_dashboard">My dashboard</string>
+    <string name="followers">Followers</string>
+    <string name="_50">50</string>
+    <string name="artworks">Artworks</string>
+    <string name="_21">21</string>
+    <string name="_120">120</string>
+    <string name="_43k">43K</string>
+    <string name="_2_3K">2.3K</string>
+    <string name="palette">palette</string>
+    <string name="uploads">Uploads</string>
+    <string name="exhibitions">Exhibitions</string>
+    <string name="revenue">Revenue</string>
 </resources>

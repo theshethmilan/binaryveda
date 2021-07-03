@@ -11,4 +11,14 @@
     <color name="royalBlue">#577BDF</color>
     <color name="gainsBoro">#D8D8D8</color>
     <color name="nero">#1A1A1A</color>
+    <color name="venetianRed">#D90034</color>
+    <color name="chateauGreen">#44A33D</color>
+    <color name="veryLightGrey">#CDCDCD</color>
+    <color name="cerulean">#007DB2</color>
+    <color name="pompadour">#5F0E47</color>
+    <color name="carmine">#9E003D</color>
+    <color name="orangeRed">#FF4518</color>
+    <color name="amber">#FFC200</color>
+    <color name="suvaGrey">#878787</color>
+    <color name="selectiveYellow">#FFB500</color>
 </resources>

@@ -8,10 +8,12 @@ class Config {
         const val  barlowCondensedExtraLight = "BarlowCondensed-ExtraLight.ttf"
         const val  barlowCondensedLight = "BarlowCondensed-Light.ttf"
         const val  barlowCondensedMedium = "BarlowCondensed-Medium.ttf"
+        const val  barlowMedium = "Barlow-Medium.ttf"
 
-        var typfaceBarlowExtraLight: Typeface? = null
-        var typfaceBarlowCondensedExtraLight: Typeface? = null
-        var typfaceBarlowCondensedLight: Typeface? = null
-        var typfaceBarlowCondensedMedium: Typeface? = null
+        var typefaceBarlowExtraLight: Typeface? = null
+        var typefaceBarlowCondensedExtraLight: Typeface? = null
+        var typefaceBarlowCondensedLight: Typeface? = null
+        var typefaceBarlowCondensedMedium: Typeface? = null
+        var typefaceBarlowMedium: Typeface? = null
     }
 }
