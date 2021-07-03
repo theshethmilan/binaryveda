@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">binaryveda</string>
+    <string name="lorem_ipsum_is_used">Lorem ipsum\nis used</string>
+    <string name="lorem_details_man">Lorem ipsum dolor sit amet, consectetur\nadipiscing elit, sed do eiusmod tempor\nincididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud\nexercitation ullamco.</string>
+    <string name="lorem_details_rectangle">Lorem ipsum dolor sit amet, consectetur\nadipiscing elit, sed do eiusmod tempor\nincididunt ut labore et dolore magna\naliqua. Ut enim ad minim veniam, quis\nnostrud exercitation ullamco.</string>
+    <string name="lorem_details_spiral">Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit, sed do\neiusmod tempor incididunt ut labore et\ndolore magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation\nullamco laboris nisi ut aliquip ex ea\ncommodo consequat.</string>
+    <string name="lorem_details_broadcast">Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit, sed do\neiusmod tempor incididunt ut labore et\ndolore magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation\nullamco laboris nisi ut aliquip ex ea\ncommodo consequat.</string>
+    <string name="lorem_details_star">Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit, sed do\neiusmod tempor incididunt ut labore et\ndolore magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation\nullamco laboris nisi ut aliquip ex ea\ncommodo consequat.</string>
+    <string name="lorem_details_book">Lorem ipsum dolor sit amet, consectetur\nadipiscing elit, sed do eiusmod tempor\nincididunt ut labore et dolore magna\naliqua. Ut enim ad minim veniam, quis\nnostrud exercitation ullamco laboris nisi\nut aliquip ex ea commodo consequat. Duis\naute irure dolor in reprehenderit in\nvoluptate velit esse cillum dolore eu fugiat\nnulla pariatur.</string>
+    <string name="lorem_details_flag">Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit, sed do\neiusmod tempor incididunt ut labore et\ndolore magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation\nullamco laboris nisi ut aliquip ex ea\ncommodo consequat.</string>
+    <string name="lorem_details_mouse">Lorem ipsum dolor sit amet, consectetur\nadipiscing elit, sed do eiusmod tempor\nincididunt ut labore et dolore magna\naliqua. Ut enim ad minim veniam, quis\nnostrud exercitation ullamco laboris nisi\nut aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in\nvoluptate velit esse cillum dolore eu\nfugiat nulla pariatur.</string>
+    <string name="track_my_application">track my application</string>
+    <string name="me_as_a_collector">me as a collector</string>
+    <string name="register">register</string>
+    <string name="about_us">About Us.</string>
+    <string name="team">Team.</string>
+    <string name="reach_us">Reach Us.</string>
+    <string name="affiliations">Affiliations.</string>
+    <string name="disclaimers">Disclaimers.</string>
+    <string name="copyright">Content Copyright reserved.</string>
+    <string name="lorem_heading">Lorem ipsum dolor sit amet, consectetur\nadipiscing elit</string>
+    <string name="privacy_policy">Privacy Policy.</string>
+</resources>

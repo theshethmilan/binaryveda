@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="@dimen/_211sdp"
+            android:layout_height="@dimen/_77sdp"
+            android:layout_marginStart="@dimen/_24sdp"
+            android:layout_marginTop="@dimen/_31sdp"
+            android:src="@drawable/ic_art_gallery"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBanner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_300sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_banner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvTagLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_36sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_36sdp"
+            android:text="@string/lorem_heading"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivBanner" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:backgroundTint="@color/burntSienna"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textAlignment="center"
+            android:padding="@dimen/_5sdp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:textSize="@dimen/_30sp"
+            app:cornerRadius="@dimen/_8sdp"
+            app:flow_verticalAlign="center"
+            app:icon="@drawable/ic_right_arrow"
+            app:iconGravity="start"
+            app:layout_constraintStart_toStartOf="@+id/tvTagLine"
+            app:layout_constraintTop_toBottomOf="@+id/tvTagLine" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvCollector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:text="@string/me_as_a_collector"
+            android:textAlignment="center"
+            android:textColor="@color/nero"
+            android:textSize="@dimen/_30sp"
+            app:flow_verticalAlign="center"
+            app:layout_constraintBottom_toBottomOf="@+id/btnRegister"
+            app:layout_constraintStart_toEndOf="@+id/btnRegister"
+            app:layout_constraintTop_toTopOf="@+id/btnRegister" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvTrackMyApplication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:drawableStart="@drawable/ic_right_arrow_small_blue"
+            android:drawablePadding="@dimen/_10sdp"
+            android:text="@string/track_my_application"
+            android:textColor="@color/royalBlue"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:foregroundGravity="center"
+            android:textSize="@dimen/_24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnRegister" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivRightMan"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_40sp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_right_man"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTrackMyApplication" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_ipsum_is_used"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_28sp"
+            app:layout_constraintStart_toStartOf="@+id/ivRightMan"
+            app:layout_constraintTop_toBottomOf="@+id/ivRightMan" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv2"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_details_man"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintStart_toStartOf="@+id/tv1"
+            app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivRectangle"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_40sp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_rectangle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv2" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_ipsum_is_used"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_28sp"
+            app:layout_constraintStart_toStartOf="@+id/ivRectangle"
+            app:layout_constraintTop_toBottomOf="@+id/ivRectangle" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv4"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_details_rectangle"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintStart_toStartOf="@+id/tv3"
+            app:layout_constraintTop_toBottomOf="@+id/tv3" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivSpiral"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_40sp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_spiral"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv4" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_ipsum_is_used"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_28sp"
+            app:layout_constraintStart_toStartOf="@+id/ivSpiral"
+            app:layout_constraintTop_toBottomOf="@+id/ivSpiral" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv6"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_details_spiral"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintStart_toStartOf="@+id/tv5"
+            app:layout_constraintTop_toBottomOf="@+id/tv5" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBroadcast"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_40sp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_broadcast"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv6" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_ipsum_is_used"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_28sp"
+            app:layout_constraintStart_toStartOf="@+id/ivBroadcast"
+            app:layout_constraintTop_toBottomOf="@+id/ivBroadcast" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv8"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_details_broadcast"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintStart_toStartOf="@+id/tv7"
+            app:layout_constraintTop_toBottomOf="@+id/tv7" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivStar"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_40sp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_star"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv8" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_ipsum_is_used"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_28sp"
+            app:layout_constraintStart_toStartOf="@+id/ivStar"
+            app:layout_constraintTop_toBottomOf="@+id/ivStar" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv10"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_details_star"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintStart_toStartOf="@+id/tv9"
+            app:layout_constraintTop_toBottomOf="@+id/tv9" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBook"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_40sp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_book"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv10" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_ipsum_is_used"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_28sp"
+            app:layout_constraintStart_toStartOf="@+id/ivBook"
+            app:layout_constraintTop_toBottomOf="@+id/ivBook" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv12"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_details_book"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintStart_toStartOf="@+id/tv11"
+            app:layout_constraintTop_toBottomOf="@+id/tv11" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivFlag"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_40sp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_flag"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv12" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_ipsum_is_used"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_28sp"
+            app:layout_constraintStart_toStartOf="@+id/ivFlag"
+            app:layout_constraintTop_toBottomOf="@+id/ivFlag" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv14"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_details_flag"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintStart_toStartOf="@+id/tv13"
+            app:layout_constraintTop_toBottomOf="@+id/tv13" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivMouse"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_40sp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_mouse"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv14" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_ipsum_is_used"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_28sp"
+            app:layout_constraintStart_toStartOf="@+id/ivMouse"
+            app:layout_constraintTop_toBottomOf="@+id/ivMouse" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv16"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:text="@string/lorem_details_mouse"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintStart_toStartOf="@+id/tv15"
+            app:layout_constraintTop_toBottomOf="@+id/tv15" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/lylSocialMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv16">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_32sdp"
+                android:layout_height="@dimen/_32sdp"
+                android:adjustViewBounds="true"
+                android:fitsSystemWindows="true"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_facebook" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_32sdp"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:adjustViewBounds="true"
+                android:fitsSystemWindows="true"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_instagram" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:id="@+id/viewDivider1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_22sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:background="@color/gainsBoro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lylSocialMedia" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivLogo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_60sdp"
+            android:layout_marginTop="@dimen/_23sdp"
+            android:layout_marginEnd="@dimen/_60sdp"
+            android:src="@drawable/ic_logo_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewDivider1" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/lylCompanyDetails1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_74sdp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivLogo1">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvAboutUs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_us"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_20sdp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvTeam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/team"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_20sdp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvReachUs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reach_us"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/lylCompanyDetails2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_109sdp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toEndOf="@+id/lylCompanyDetails1"
+            app:layout_constraintTop_toBottomOf="@id/ivLogo1">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvAffiliations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/affiliations"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_20sdp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvDisclaimers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/disclaimers"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_20sdp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvPrivacyPolicy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_policy"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:id="@+id/viewDivider2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_22sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:background="@color/gainsBoro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lylCompanyDetails1" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvCopyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:drawableStart="@drawable/ic_copyright"
+            android:drawablePadding="@dimen/_10sdp"
+            android:text="@string/copyright"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewDivider2" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_47sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvCopyright" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
